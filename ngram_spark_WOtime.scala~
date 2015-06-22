@@ -27,5 +27,5 @@ val sortedResult = result.map(pair => pair.swap).sortByKey(false)
 sortedResult.take(10)
 
 //output
-sortedResult.saveAsTextFile(resultPath)
+result.saveAsTextFile(resultPath)
 
